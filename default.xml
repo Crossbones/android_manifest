@@ -11,9 +11,6 @@
   <remote  name="chainsdd"
            fetch="git://github.com/ChainsDD" />
 
-  <remote  name="arifhn"
-           fetch="git://github.com/arifhn" />
-
   <remote  name="liudongmiao"
            fetch="git://github.com/liudongmiao" />
 
