@@ -225,7 +225,8 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Superuser" name="Superuser" remote="chainsdd" revision="master" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="github" revision="master" />
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" 
+remote="github" revision="ics" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/apps/Welcome" name="android_packages_apps_Welcome" remote="github" revision="ics" />
