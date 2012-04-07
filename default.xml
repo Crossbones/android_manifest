@@ -11,9 +11,6 @@
   <remote  name="chainsdd"
            fetch="git://github.com/ChainsDD" />
 
-  <remote  name="liudongmiao"
-           fetch="git://github.com/liudongmiao" />
-
   <remote  name="goo-inside.me"
            fetch="git://github.com/solarnz" />
 
@@ -65,7 +62,6 @@
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
-  <project path="external/busybox" name="busybox-android" remote="liudongmiao" revision="android" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
