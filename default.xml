@@ -328,6 +328,7 @@
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="github" revision="jellybean"/>
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="github" revision="jellybean"/>
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="jellybean"/>
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="github" revision="jellybean"/>
 
 </manifest>
 
