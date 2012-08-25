@@ -14,7 +14,7 @@
   <remote  name="goo-inside.me"
            fetch="git://github.com/solarnz" />
 
-  <default revision="refs/tags/android-4.1.1_r3" 
+  <default revision="refs/tags/android-4.1.1_r4" 
            remote="aosp"/>
 
   <project path="android_manifest" name="android_manifest" remote="github" revision="jellybean">
