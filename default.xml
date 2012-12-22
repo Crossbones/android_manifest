@@ -2,17 +2,16 @@
 <manifest>
 
   <remote  name="github"
-           fetch="git://github.com/Crossbones/"
-           review="review.xbones.org:4883" />
+           fetch="git://github.com/Crossbones/" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <remote  name="goo-inside.me"
-           fetch="git://github.com/solarnz" />
-
   <default revision="refs/tags/android-4.1.2_r1" 
            remote="aosp"/>
+
+  <remote  name="goo-inside.me"
+           fetch="git://github.com/solarnz" />
 
   <project path="android_manifest" name="android_manifest" remote="github" revision="jellybean">
     <copyfile src=".classpath" dest=".classpath" />
