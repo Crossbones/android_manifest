@@ -13,10 +13,10 @@
   <remote  name="goo-inside.me"
            fetch="git://github.com/solarnz" />
 
-  <project path="android_manifest" name="android_manifest" remote="github" revision="jellybean">
+  <project path="android_manifest" name="android_manifest" remote="github" revision="jellybean-4.1.2">
     <copyfile src=".classpath" dest=".classpath" />
   </project>
-  <project path="build" name="android_build" remote="github" revision="jellybean">
+  <project path="build" name="android_build" remote="github" revision="jellybean-4.1.2">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -24,7 +24,7 @@
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="jellybean" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="jellybean-4.1.2" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
@@ -39,12 +39,12 @@
 <!--  <project path="device/moto/stingray" name="device/moto/stingray" /> -->
 <!--  <project path="device/moto/wingray" name="device/moto/wingray" /> -->
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="github" revision="jellybean" />
-  <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="github" revision="jellybean" />
-  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="github" revision="jellybean" />
-  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="jellybean" />
-  <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="github" revision="jellybean" />
-  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="jellybean" />
+  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="github" revision="jellybean-4.1.2" />
+  <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="github" revision="jellybean-4.1.2" />
+  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="github" revision="jellybean-4.1.2" />
+  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="jellybean-4.1.2" />
+  <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="github" revision="jellybean-4.1.2" />
+  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="jellybean-4.1.2" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -190,7 +190,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="github" revision="jellybean"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="github" revision="jellybean-4.1.2"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -236,15 +236,15 @@
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
-  <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="github" revision="jellybean" />
+  <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="github" revision="jellybean-4.1.2" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/GooManager" name="GooManager_prebuilt" remote="goo-inside.me" revision="master" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="jellybean" />
+  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="jellybean-4.1.2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="github" revision="jellybean" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="github" revision="jellybean-4.1.2" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -253,25 +253,25 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="jellybean" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="jellybean-4.1.2" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <!-- <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="master" /> -->
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="github" revision="jellybean" />
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="github" revision="jellybean-4.1.2" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-  <project path="packages/apps/Welcome" name="android_packages_apps_Welcome" remote="github" revision="jellybean" />
+  <project path="packages/apps/Welcome" name="android_packages_apps_Welcome" remote="github" revision="jellybean-4.1.2" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="github" revision="jellybean" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="github" revision="jellybean-4.1.2" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="github" revision="jellybean" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="github" revision="jellybean-4.1.2" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
@@ -310,7 +310,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="android_system_core" remote="github" revision="jellybean" />
+  <project path="system/core" name="android_system_core" remote="github" revision="jellybean-4.1.2" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
@@ -318,14 +318,14 @@
   <!-- <project path="system/su" name="android_system_su" remote="github" revision="master" /> -->
   <project path="system/vold" name="platform/system/vold" />
 
-  <project path="vendor/akm" name="proprietary_vendor_akm" remote="github" revision="jellybean"/>
-  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="github" revision="jellybean"/>
-  <project path="vendor/crossbones" name="android_vendor_crossbones" remote="github" revision="jellybean"/>
-  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="github" revision="jellybean"/>
-  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="github" revision="jellybean"/>
-  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="github" revision="jellybean"/>
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="jellybean"/>
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="github" revision="jellybean"/>
+  <project path="vendor/akm" name="proprietary_vendor_akm" remote="github" revision="jellybean-4.1.2"/>
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="github" revision="jellybean-4.1.2"/>
+  <project path="vendor/crossbones" name="android_vendor_crossbones" remote="github" revision="jellybean-4.1.2"/>
+  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="github" revision="jellybean-4.1.2"/>
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="github" revision="jellybean-4.1.2"/>
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="github" revision="jellybean-4.1.2"/>
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="jellybean-4.1.2"/>
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="github" revision="jellybean-4.1.2"/>
 
 </manifest>
 
