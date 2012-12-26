@@ -75,7 +75,7 @@ Now enter the following to initialize the repository:
 
 -----cd ~/android/Crossbones/ 
 
------repo init -u git://github.com/Crossbones/android_manifest.git -b jellybean
+-----repo init -u git://github.com/Crossbones/android_manifest.git -b jellybean-4.1.2
 
 Then to start the Sync.
 
