@@ -39,8 +39,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="github" revision="jellybean" />
-  <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="github" revision="jellybean" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="github" revision="jellybean" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="jellybean" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="github" revision="jellybean" />
@@ -353,7 +351,6 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="vendor/akm" name="proprietary_vendor_akm" remote="github" revision="jellybean"/>
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="github" revision="jellybean"/>
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="github" revision="jellybean"/>
   <project path="vendor/crossbones" name="android_vendor_crossbones" remote="github" revision="jellybean"/>
