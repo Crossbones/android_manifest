@@ -353,14 +353,12 @@
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="github" revision="jellybean"/>
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="github" revision="jellybean"/>
   <project path="vendor/crossbones" name="android_vendor_crossbones" remote="github" revision="jellybean"/>
-  <project path="vendor/csr" name="proprietary_vendor_csr" remote="github" revision="jellybean"/>
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="github" revision="jellybean"/>
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="github" revision="jellybean"/>
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="github" revision="jellybean"/>
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="github" revision="jellybean"/>
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="github" revision="jellybean"/>
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="jellybean"/>
-  <project path="vendor/ti" name="proprietary_vendor_ti" remote="github" revision="jellybean"/>
   <project path="vendor/trusted_logic" name="proprietary_vendor_trusted_logic" remote="github" revision="jellybean"/>
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="github" revision="jellybean"/>
 
