@@ -354,6 +354,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
+  <project path="vendor/akm" name="proprietary_vendor_akm" remote="github" revision="jellybean-4.2"/>
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="github" revision="jellybean-4.2"/>
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="github" revision="jellybean-4.2"/>
   <project path="vendor/crossbones" name="android_vendor_crossbones" remote="github" revision="jellybean-4.2"/>
