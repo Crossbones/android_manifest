@@ -25,7 +25,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="android_dalvik" remote="github" revision="jellybean-4.2" />
   <project path="development" name="android_development" remote="github" revision="jellybean-4.2" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="github" revision="jellybean-4.2" />
   <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="github" revision="jellybean-4.2" />
