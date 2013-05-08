@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
+  <remote name="github"
            fetch="git://github.com/Crossbones/" />
 
-  <remote  name="aosp"
+  <remote name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <default revision="refs/tags/android-4.2.2_r1" 
+  <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"/>
 
-  <remote  name="goo-inside.me"
+  <remote name="goo-inside.me"
            fetch="git://github.com/solarnz" />
 
   <project path="android_manifest" name="android_manifest" remote="github" revision="jellybean-4.2" />
@@ -199,7 +199,7 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/webp" name="platform/external/webp" />
-  <project path="external/webrtc" name="platform/external/webrtc"  groups="pdk" />
+  <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
@@ -225,7 +225,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="github" revision="jellybean-4.2" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
