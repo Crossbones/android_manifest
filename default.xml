@@ -31,9 +31,9 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="android_development" remote="github" revision="jellybean-4.3" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
+<!--  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" /> -->
+<!--  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" /> -->
+<!--  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" /> -->
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="github" revision="jellybean-4.3" />
   <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="github" revision="jellybean-4.3" />
   <project path="device/common" name="device/common" />
@@ -215,7 +215,7 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/webp" name="platform/external/webp" />
-  <project path="external/webrtc" name="platform/external/webrtc"  groups="pdk" />
+  <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
