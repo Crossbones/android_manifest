@@ -397,7 +397,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/akm" name="proprietary_vendor_akm" remote="github" revision="jellybean-4.3"/>
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="github" revision="jellybean-4.3"/>
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="github" revision="jellybean-4.3"/>
   <project path="vendor/crossbones" name="android_vendor_crossbones" remote="github" revision="jellybean-4.3"/>
